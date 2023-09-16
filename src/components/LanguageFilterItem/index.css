@@ -1,0 +1,55 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .styling-button {
+    border: 2px solid #0284c7;
+    color: #0284c7;
+    background-color: transparent;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .language {
+    font-size: 10px;
+    font-weight: 600;
+    margin: 10px;
+  }
+
+  .normal-button {
+    background-color: transparent;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .language-button-con {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .styling-button {
+    border: 2px solid #0284c7;
+    color: #0284c7;
+    background-color: transparent;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .language {
+    font-size: 8px;
+    font-weight: 400;
+    margin: 6px;
+  }
+
+  .normal-button {
+    background-color: transparent;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .language-button-con {
+    margin: 4px;
+  }
+}

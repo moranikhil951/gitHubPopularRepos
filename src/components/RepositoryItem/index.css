@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.avatarUrl {
+  height: 70px;
+}
+
+.listed-items {
+  height: 40%;
+  width: 20%;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 786px) {
+  .name {
+    font-size: 10px;
+    color: #e73959;
+  }
+  .listed-items {
+    height: 40%;
+    width: 20%;
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 10px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .name {
+    font-size: 15px;
+    color: #e73959;
+  }
+}
+.icons {
+  height: 10px;
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-con {
+  margin-top: 0;
+}
